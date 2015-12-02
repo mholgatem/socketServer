@@ -83,10 +83,17 @@ keyList = {
     "KEY_KP3"        :          81,
     "KEY_KP0"        :          82,
     "KEY_KPDOT"      :          83,
+    "KEY_F11"        :          87,
+    "KEY_F12"        :          88,
+    "KEY_RIGHTCTRL"  :          97,
+    "KEY_RIGHTALT"   :          100,
     "KEY_UP"         :          103,
     "KEY_LEFT"       :          105,
     "KEY_RIGHT"      :          106,
     "KEY_DOWN"       :          108,
+    "KEY_LEFTMETA"   :  		125,
+    "KEY_RIGHTMETA"   :  		126,
+    
 
     '''buttons misc'''
     "BTN_0"          :          256,
@@ -123,6 +130,8 @@ keyList = {
     "BTN_THUMBR"     :          318,
 }
 
-keyType = {
-    "EV_KEY"         :          1,
+eventType = {
+    "EV_KEY"         :          1, #keyboard
+    "EV_REL"         :          2, #mouse
+    "EV_ABS"         :          3, #joystick/wheel
 }
